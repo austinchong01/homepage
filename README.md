@@ -1,2 +1,2 @@
-# homepage
-Homepage
+# Homepage
+responsive HTML/CSS
