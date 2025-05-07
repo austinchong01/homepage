@@ -1,0 +1,30 @@
+/* desktop */
+@media (min-width: 1000px){
+    body {
+        background-color: aqua;
+    }
+
+    .portrait h1 {
+        bottom: 0px;
+        left: 125px;
+    }
+}
+
+/* tablet */
+@media (min-width: 500px) and (max-width: 999px){
+    body {
+        background-color: black;
+    }
+}
+
+/* mobile */
+@media (min-width: 0px) and (max-width: 499px){
+    body {
+        background-color: orange;
+    }
+
+    #selfie {
+        width: 400px;
+        height: 600px;
+    }
+}

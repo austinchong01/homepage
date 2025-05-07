@@ -1,40 +1,62 @@
 body {
   font-family: Playfair Display, Roboto;
   background-color: antiquewhite;
+  font-size: xx-large;
 }
 
+.card {
+    box-shadow: 5px 5px 10px grey;
+}
+
+header {
+    display: flex;
+    margin: 4.5rem;
+}
 
 #selfie {
-    width: 300px;
+    width: 550px;
+    height: 500px;
+    object-fit: cover;
 }
 
 .portrait {
-    color: white;
     position: relative;
+    color: white;
 }
 
-h1 {
+.portrait h1 {
     position: absolute;
+    margin: 0px;
+
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h2 {
+    margin: 0;
+}
+
+.textBlock {
+    display: inline;
 }
 
 .headingText {
     background-color: white;
+    padding: 25px;
+    margin: auto 0;
 
     display: flex;
     flex-direction: column;
 }
 
-h2 {
-    flex-shrink: 0;
-}
-
 .headFooter {
     display: flex;
-    gap: 10px;
+    gap: 2rem;
 
+    margin-top: auto;
     margin-left: auto;
 }
 
 .headFooter .icon {
-    width: 30px;
+    width: 3rem;
 }
