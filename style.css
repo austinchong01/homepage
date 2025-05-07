@@ -1,4 +1,40 @@
 body {
-  font-family: Roboto, Playfair Display;
+  font-family: Playfair Display, Roboto;
   background-color: antiquewhite;
+}
+
+
+#selfie {
+    width: 300px;
+}
+
+.portrait {
+    color: white;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+}
+
+.headingText {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    flex-shrink: 0;
+}
+
+.headFooter {
+    display: flex;
+    gap: 10px;
+
+    margin-left: auto;
+}
+
+.headFooter .icon {
+    width: 30px;
 }
