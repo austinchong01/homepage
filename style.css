@@ -2,51 +2,95 @@ body {
   font-family: Playfair Display, Roboto;
   background-color: antiquewhite;
   font-size: x-large;
+  margin: 10rem 6rem 0rem 6rem;
 }
 
 .card {
-    box-shadow: 5px 5px 10px grey;
+  box-shadow: 5px 5px 10px grey;
 }
 
+/* header */
+
 header {
-    margin: 10rem 6rem 4rem 6rem;
-    padding: 1rem 2rem 4rem 0rem;
-    background-color: white;
+  display: inline-block;
+}
+
+.white {
+  /* margin: 10rem 6rem 0rem 6rem; */
+  padding: 1rem 2rem 4rem 0rem;
+  background-color: white;
 }
 
 #selfie {
-    width: 450px;
-    height: 500px;
-    object-fit: cover;
+  width: 450px;
+  height: 500px;
+  object-fit: cover;
 }
-
 .portrait {
-    transform: translate(-50px, -100px);
-    color: white;
-    float: left;
+  transform: translate(-50px, -100px);
+  color: white;
+  float: left;
 }
-
 .portrait h1 {
-    white-space: nowrap;
-    position: absolute;
-    margin: 0px;
+  white-space: nowrap;
+  position: absolute;
+  margin: 0px;
 
-    font-size: 50px;
-    font-weight: 100;
+  font-size: 50px;
+  font-weight: 100;
 }
 
-h2 {
-    margin: 0;
-    white-space: nowrap;
+h2,
+h3,
+h4 {
+  margin: 0;
+  white-space: nowrap;
 }
-
 .headFooter {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 
-    float: right;
+  float: right;
+}
+.headFooter .icon {
+  width: 2rem;
 }
 
-.headFooter .icon {
-    width: 2rem;
+/* main */
+main {
+
+}
+
+.grid {
+    /* margin: 2rem; */
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.box {
+    background-color: grey;
+    max-width: 20rem;
+}
+
+.projPic {
+    min-height: 12rem;
+}
+
+.projContent {
+    background-color: whitesmoke;
+}
+
+.projHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projIcons {
+  display: flex;
+  gap: 1rem;
+}
+.projIcon {
+  width: 1.5rem;
 }
