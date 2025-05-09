@@ -58,28 +58,26 @@ h4 {
 
 /* main */
 main h2 {
-    margin: 1rem 0rem;
+  margin: 1rem 0rem;
 }
 
 .grid {
-    /* margin: 2rem; */
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    /* justify-content: center; */
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .box {
-    background-color: grey;
-    max-width: 20rem;
+  background-color: grey;
+  max-width: 20rem;
 }
 
 .projPic {
-    min-height: 12rem;
+  min-height: 12rem;
 }
 
 .projContent {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 .projHeader {
@@ -93,4 +91,15 @@ main h2 {
 }
 .projIcon {
   width: 1.5rem;
+}
+
+
+/* footer */
+
+footer {
+    background-color: blueviolet;
+}
+
+footer .icon {
+  width: 2rem;
 }
