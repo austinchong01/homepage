@@ -65,4 +65,8 @@
     .grid {
         justify-content: center;
     }
+
+    footer, .footerIcons {
+        justify-content: center;
+    }
 }

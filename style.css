@@ -97,9 +97,35 @@ main h2 {
 /* footer */
 
 footer {
-    background-color: blueviolet;
+  background-color: lightcoral;
+  border: 1px solid black;
 }
 
 footer .icon {
   width: 2rem;
+}
+
+.phone, .mail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3rem;
+}
+
+.footerIcons {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.dog {
+  width: 30rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
