@@ -1,7 +1,7 @@
 body {
   font-family: Playfair Display, Roboto;
   background-color: antiquewhite;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .card {
@@ -10,22 +10,19 @@ body {
 
 header {
     margin: 10rem 6rem 4rem 6rem;
-    padding: 2.5rem;
+    padding: 1rem 2rem 4rem 0rem;
     background-color: white;
 }
 
 #selfie {
-    width: 550px;
-    height: 600px;
+    width: 450px;
+    height: 500px;
     object-fit: cover;
 }
 
 .portrait {
-    /* transform: translate(-100px, -150px); */
+    transform: translate(-50px, -100px);
     color: white;
-    position: relative;
-    left: -100px;
-    top: -100px;
     float: left;
 }
 
@@ -45,9 +42,11 @@ h2 {
 
 .headFooter {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+
+    float: right;
 }
 
 .headFooter .icon {
-    width: 3rem;
+    width: 2rem;
 }
